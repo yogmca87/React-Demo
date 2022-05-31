@@ -53,7 +53,7 @@ const Read = () => {
               <Table.Cell><Link to='/read'><Button onClick={() => deleteData(data.id)}>Delete</Button></Link></Table.Cell>
             </Table.Row>
           )
-          ) : <Table.Row><Table.Cell>Loading......</Table.Cell></Table.Row>}
+          ) : <Table.Row><Table.Cell>Nothing to Display......</Table.Cell></Table.Row>}
         </Table.Body>
       </Table>
     </div>)
